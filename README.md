@@ -9,6 +9,7 @@ Some mathematical background behind this algorithm can be found in the workingeq
 
 # Dependencies
 Fragmentsolver is made using taco (https://github.com/tensor-compiler/taco).
+
 Molpro (https://www.molpro.net/) or Cryscor for creating FCIDUMPs
 
 # Acknowledgements
