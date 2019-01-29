@@ -13,7 +13,7 @@ void testsuite(){
 }
 
 int main(){
-	bool Debug = true;
+	bool Debug = false;
 	std::cout << std::fixed << std::setprecision(7);
 	if (Debug){
 		testsuite();
