@@ -27,21 +27,20 @@ Then the rest of the output follows:
 
 Iteration    Energy          Ediff
 
-1        -69.7757349     69.7757349
+    1        -69.7757349     69.7757349
 
-2        -70.5991837      0.8234488
+    2        -70.5991837      0.8234488
 
-3        -70.6032847      0.0041011
+    3        -70.6032847      0.0041011
 
-4        -70.6034191      0.0001344
+    4        -70.6034191      0.0001344
 
-5        -70.6034304      0.0000113
+    5        -70.6034304      0.0000113
 
-6        -70.6034316      0.0000012
+    6        -70.6034316      0.0000012
+    7        -70.6034317      0.0000001
 
-7        -70.6034317      0.0000001
-
-The Energy is -70.6034317
+    The Energy is -70.6034317
 
 It prints for every iteration the number of iteration, the current energy and the energy difference to the last energy.
 After convergence is achieved it prints out the resulting energy of the calculation.
