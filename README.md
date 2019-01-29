@@ -36,4 +36,4 @@ Then the rest of the output follows:
     The Energy is -70.6034317
 
 It prints for every iteration the number of iteration, the current energy and the energy difference to the last energy.
-After convergence is achieved it prints out the resulting energy of the calculation.
+After convergence is achieved it prints out the resulting energy of the calculation. In this case its the energy of Water with 4 electrons less then usual.
