@@ -7,5 +7,5 @@ If you just want to try out you can also take one of the FCIDUMPs from the FCIDU
 
 Some mathematical background behind this algorithm can be found in the workingequations file.
 
-#Dependencies
+# Dependencies
 Fragmentsolver is made using taco (https://github.com/tensor-compiler/taco).
