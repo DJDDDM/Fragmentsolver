@@ -6,3 +6,6 @@ Molpro and Cryscor can be use to create new FCIDUMPs.
 If you just want to try out you can also take one of the FCIDUMPs from the FCIDUMPs folder.
 
 Some mathematical background behind this algorithm can be found in the workingequations file.
+
+#Dependencies
+Fragmentsolver is made using taco (https://github.com/tensor-compiler/taco).
