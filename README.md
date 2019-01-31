@@ -12,6 +12,9 @@ Fragmentsolver is made using taco (https://github.com/tensor-compiler/taco). (th
 
 Molpro (https://www.molpro.net/) or Cryscor (http://www.cryscor.unito.it/cms/) for creating FCIDUMPs.
 
+# Acknowledgements
+Eigen (http://eigen.tuxfamily.org/index.php?title=Main_Page) was used for the eigenvalue decomposition.
+
 # Usage
 First download the entire Repository via Git.
 
