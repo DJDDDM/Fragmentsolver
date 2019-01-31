@@ -21,7 +21,7 @@ int main(){
 		cout << "which FCIDUMP?:" << endl;
 		string FCIDUMP;
 		cin >> FCIDUMP;
-		cout << "How many Electrons(even number cause RHF) do you like to add?:" << endl;
+		cout << "How many Electrons do you like to add?:" << endl;
 		int Electronadd;
 		cin >> Electronadd;
 		rhf RHF = rhf(FCIDUMP,Electronadd);

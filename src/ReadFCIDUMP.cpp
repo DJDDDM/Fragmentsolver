@@ -73,6 +73,10 @@ void ReadFCIDUMP::readnamelist(){
 	readnextline();
 	NORB = stoi(stringbetween("NORB=", ","));
 	NELEC = stoi(stringbetween("NELEC=", ",")) + Electronadd;
+	if (!(NELEC % 2 == 0)){
+		cerr << "ERROR:" << endl << "Uneven numbers of electrons are not supported in rhf" << endl;
+		exit(0);
+	}
 	cout << "Number of Orbitals: " << NORB << endl;
 	cout << "Number of Electrons: " << NELEC << endl;
 	skipnamelist();
