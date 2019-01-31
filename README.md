@@ -13,6 +13,8 @@ Fragmentsolver is made using taco (https://github.com/tensor-compiler/taco). (th
 Molpro (https://www.molpro.net/) or Cryscor (http://www.cryscor.unito.it/cms/) for creating FCIDUMPs.
 
 # Usage
+First download the entire Repository via Git.
+
 Start the programm by calling the run skript (Fragmentsolver.bash).
 
 You get asked which FCIDUMP you want to have as input (./FCIDUMPs/Water [relative path from where you called the run skript]).
