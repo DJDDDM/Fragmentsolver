@@ -8,17 +8,21 @@ If you just want to try out you can also take one of the FCIDUMPs from the FCIDU
 Some mathematical background behind this algorithm can be found in the workingequations file.
 
 # Dependencies
-Fragmentsolver is made using taco (https://github.com/tensor-compiler/taco).
+Fragmentsolver is made using taco (https://github.com/tensor-compiler/taco). (therefore the libtaco.so is needed)
 
-Molpro (https://www.molpro.net/) or Cryscor (http://www.cryscor.unito.it/cms/) for creating FCIDUMPs
+Molpro (https://www.molpro.net/) or Cryscor (http://www.cryscor.unito.it/cms/) for creating FCIDUMPs.
 
 # Acknowledgements
-Fragmentsolver is made with Eclipse. So it should be most easy to use it by importing it into Eclipse.
+Eigen (http://eigen.tuxfamily.org/index.php?title=Main_Page) was used for the eigenvalue decomposition.
 
 # Usage
-Start the programm by calling it (Fragmentsolver).
+Programm was written for Linux.
 
-You get asked which FCIDUMP you want to have as input (../FCIDUMPs/Water).
+First download the entire Repository via Git.
+
+Start the programm by calling the run skript (./Fragmentsolver.bash).
+
+You get asked which FCIDUMP you want to have as input (FCIDUMPs/Water [relative path from where you called the run skript]).
 
 Next you get asked how many electrons you want to add (-4).
 
