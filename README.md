@@ -18,9 +18,9 @@ Eigen (http://eigen.tuxfamily.org/index.php?title=Main_Page) was used for the ei
 # Usage
 First download the entire Repository via Git.
 
-Start the programm by calling the run skript (Fragmentsolver.bash).
+Start the programm by calling the run skript (./Fragmentsolver.bash).
 
-You get asked which FCIDUMP you want to have as input (./FCIDUMPs/Water [relative path from where you called the run skript]).
+You get asked which FCIDUMP you want to have as input (FCIDUMPs/Water [relative path from where you called the run skript]).
 
 Next you get asked how many electrons you want to add (-4).
 
