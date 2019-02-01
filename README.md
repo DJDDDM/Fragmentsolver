@@ -16,6 +16,8 @@ Molpro (https://www.molpro.net/) or Cryscor (http://www.cryscor.unito.it/cms/) f
 Eigen (http://eigen.tuxfamily.org/index.php?title=Main_Page) was used for the eigenvalue decomposition.
 
 # Usage
+Programm was written for Linux.
+
 First download the entire Repository via Git.
 
 Start the programm by calling the run skript (./Fragmentsolver.bash).
