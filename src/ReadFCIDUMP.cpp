@@ -64,7 +64,7 @@ void ReadFCIDUMP::readnextline(){
 }
 
 void ReadFCIDUMP::skipnamelist(){
-	while (!(currentline.find("/") != string::npos)){
+	while ((currentline.find("/") == string::npos) && (currentline.find("&END") == string::npos) ){
 		readnextline();
 	}
 }
